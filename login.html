@@ -1,0 +1,105 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+
+    <style>
+        nav {
+            background-color: #0858b3;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #0f0f0e;
+        }
+
+        body {
+            background-color:  rgb(235, 251, 164);
+        }
+
+        h2 {
+            color: rgb(206, 22, 56);
+        }
+
+        #email, #password {
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid blue;
+            border-radius: 8px;
+            font-size: 15px;
+            outline: none;
+        }
+
+        button {
+            padding: 10px;
+            background-color: rgb(222, 215, 216);
+            color: rgb(93, 93, 235);
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        /* Only form's Forget Password link */
+        #forget-link {
+            color: rgb(55, 55, 227);
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        #forget-link:hover {
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="forget.html">Resetpass</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <form>
+        <h2>LOGIN</h2>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+        <br><br>
+
+        <button type="submit">Login</button>
+
+        <br><br>
+
+        <a href="forget.html" id="forget-link">forget pass</a>
+
+    </form>
+
+</body>
+</html>
+```
