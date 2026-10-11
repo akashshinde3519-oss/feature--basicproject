@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         nav {
+    background-color: #0858b3;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0f0f0e;
+}
+
+        body{
+            background-color:  rgb(235, 251, 164);
+        }
+        h2{
+            color: rgb(206, 22, 56);
+        }
+         input[type="text"]{
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid blue;
+            border-radius: 8px;
+            font-size: 15px;
+            outline: none;
+            font-weight: bold;
+        }
+        button{
+            padding: 10px;
+            background-color: rgb(222, 215, 216);
+            color: blue;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home </a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="forget.html">Resetpass</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+    <form>
+        <h2>Reset pass</h2>
+        <label for="email">Email</label>
+        <input type="text" id="email">
+    <br> <br>
+
+    <label for="password">Password</label>
+        <input type="text" id="password">
+    <br> <br>
+
+    <label for="confirm password">Confirm password</label>
+        <input type="text" id="confirm password">
+    <br> <br>
+
+    <button type="submit">reset</button>
+      <br><br>
+    </form>
+    
+</body>
+</html>
